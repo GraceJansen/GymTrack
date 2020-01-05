@@ -1,0 +1,29 @@
+html {
+    background: url(../images/GymTrackBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+h2 {
+    text-align: center;
+    color: whitesmoke; 
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: whitesmoke;
+    align-self: auto;
+    color: whitesmoke;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
