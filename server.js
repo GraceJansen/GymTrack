@@ -3,6 +3,9 @@ const bodyParser = require('body-parser')
 const app = express()
 const port = 3000;
 
+// use css style
+app.use(express.static(__dirname + '/public'));
+
 // enable the passing of JSON
 app.use(bodyParser.urlencoded({  extended: false}));
 
